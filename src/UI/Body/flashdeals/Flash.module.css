@@ -1,0 +1,109 @@
+.flashsale {
+  padding: 1rem 5rem;
+  background-color: #f6f9fc;
+}
+@media screen and (max-width: 1300px) {
+  .flashsale {
+    padding: 1rem 1rem;
+  }
+}
+
+.flashHead {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.flashsale h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.flashIcon {
+  font-size: 2rem;
+}
+
+.flashcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: white;
+  cursor: pointer;
+  padding: 1.5rem;
+  gap: 1rem;
+  border-radius: 0.8rem;
+  box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+  min-width: 15rem;
+}
+
+.flashcontainer:hover {
+  transform: scale(1.05);
+  transition: all 0.2s;
+}
+
+.image {
+  align-self: center;
+  height: 10rem;
+}
+.details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+@media screen and (max-width: 700px) {
+  .image {
+    height: 5rem;
+  }
+  .flashIcon {
+    font-size: 1rem;
+  }
+  .flashsale h2 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 628px) {
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+  .btn {
+    width: 100%;
+  }
+}
+
+.productImage {
+  width: 100%;
+  height: 100%;
+}
+
+.productDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+  width: 50%;
+  overflow: visible;
+}
+.productDetail h6 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  width: 200%;
+  overflow: visible;
+}
+
+.flashcontainer h5 {
+  background-color: #7c287d;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+}
+
+.allstars {
+  display: flex;
+  gap: 0.5rem;
+}

@@ -1,0 +1,496 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.none {
+  display: none;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #7c287da4 !important;
+}
+.swiper-pagination-bullet {
+  height: 1rem !important;
+  width: 1rem !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+  background-position: center !important;
+  transform: scale(2);
+}
+@media screen and (max-width: 700px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 40% !important;
+  }
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none !important;
+}
+
+.swiper-button-prev {
+  background-image: url(./assets/arrow-back-circle.svg) !important;
+}
+
+.swiper-button-next {
+  background-image: url(./assets/arrow-forward-circle.svg) !important;
+}
+
+.addcart {
+  background-color: white;
+  border-radius: 0.4rem;
+  color: #7c287d;
+  font-size: 2rem;
+  font-weight: bolder;
+  border: 0.2rem solid #f6f9fc;
+  cursor: pointer;
+  padding: 0 0.5rem;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #7c287d;
+}
+
+a {
+  text-decoration: none;
+  color: #414f39;
+}
+
+a:active {
+  transform: translateY(0.1rem);
+  transition: all;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+  background-color: #e4e7ed;
+}
+@media screen and (max-width: 1300px) {
+  .header {
+    padding: 0 2rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .header {
+    padding: 0 1.5rem 0 0.5rem;
+  }
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
+  padding-top: 1rem;
+  padding-bottom: 0.6rem;
+}
+
+.fixed .searchMenu input {
+  background-color: #f6f9fc;
+}
+.RxCross2 {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 100%;
+}
+
+.RxCross2:hover {
+  background-color: #fef3f3;
+  transition: all 0.5s;
+}
+.RxCross2:active {
+  background-color: #fef3f3;
+  transform: translateY(0.1rem);
+}
+
+.logo {
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  color: #d23f57;
+  text-transform: uppercase;
+  font-style: italic;
+}
+@media screen and (max-width: 1000px) {
+  .logo {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+}
+.formCancel {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+/* BACKROP  */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  opacity: 0.6;
+  background: rgba(0, 0, 0, 0.75);
+  transition: all 2s;
+}
+
+.transit {
+  opacity: 1;
+  transition: all 2s;
+}
+
+.googleIcon {
+  padding: 0.2rem;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* MDODAL  */
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  gap: 1rem;
+  margin: auto;
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  padding: 2rem;
+  min-width: 30rem;
+  border-radius: 1rem;
+  transition: all 2s;
+}
+@media screen and (max-width: 500px) {
+  .modal {
+    min-width: 25rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .modal {
+    min-width: 100%;
+  }
+}
+.logoSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoform {
+  font-size: 1.5rem;
+}
+
+.or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: grey;
+}
+hr {
+  border: none;
+  border-bottom: 0.1rem solid #2b344518;
+  width: 5rem;
+}
+
+.accountReset {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.accountReset h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: grey;
+}
+
+.accountReset a {
+  font-size: 1rem;
+  text-decoration: underline;
+  color: black;
+  font-weight: 700;
+}
+
+.reset {
+  background-color: #f3f5f9;
+}
+
+.formTitle {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+/* CARTLINKS  */
+.links {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.links :last-child {
+  opacity: 0.4;
+}
+.links hr {
+  height: 0.3rem;
+  background-color: #fcc8c8;
+  width: 3rem;
+  border: none;
+}
+
+.notActive {
+  padding: 0.3rem 2rem;
+  font-size: 1rem;
+  background-color: #fcc8c8;
+  color: #d23f57;
+  border-radius: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.notActive:hover {
+  background-color: #d23f57;
+  color: white;
+}
+.active {
+  background-color: #d23f57;
+  color: white;
+  border-radius: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  font-weight: 800;
+  padding: 0.3rem 2rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 760px) {
+  .notActive,
+  .active,
+  hr {
+    margin: 0.4rem 0rem;
+  }
+}
+
+/* SEARCH BAR  */
+.searchMenu {
+  position: relative;
+}
+@media screen and (max-width: 650px) {
+  .searchMenu {
+    display: none;
+  }
+}
+
+.searchMenu button {
+  position: absolute;
+  right: 0rem;
+  border-radius: 2rem;
+  width: 5rem;
+  border: none;
+  outline: none;
+  color: #4444;
+  height: 100%;
+  padding: auto;
+  z-index: 5;
+  font-size: 1.5rem;
+  background-color: #7c287d;
+}
+@media screen and (max-width: 700px) {
+  .searchMenu button {
+    width: 3rem;
+  }
+  .searchMenu button > * {
+    font-size: 1rem;
+  }
+  .searchMenu input::placeholder {
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+  }
+}
+
+.searchMenu button > * {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchMenu input::placeholder {
+  color: #4444;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.searchMenu input {
+  position: relative;
+  z-index: 5;
+  height: 2.5rem;
+  width: 40rem;
+  border-radius: 2rem;
+  outline: none;
+  font-size: 1rem;
+  border: none;
+  padding: 0.2rem 2rem;
+  color: black;
+}
+@media screen and (max-width: 1150px) {
+  .searchMenu input {
+    width: 30rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .searchMenu input {
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .searchMenu input {
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .searchMenu input {
+    width: 15rem;
+    height: 2rem;
+    padding: 0.2rem 1rem;
+    font-size: 0.8rem;
+  }
+}
+.suggestion {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 0.5rem;
+  background-color: white;
+  width: 100%;
+  z-index: 4;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  margin-top: -1rem;
+  padding-top: 2rem;
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+  max-height: 20rem;
+  overflow-y: scroll;
+  max-height: 20rem;
+}
+@media screen and (max-width: 700px) {
+  .suggestion {
+    position: absolute;
+    width: 63%;
+    top: 2rem;
+    z-index: 1;
+  }
+}
+.suggestion::-webkit-scrollbar {
+  display: none;
+}
+.suggestion a {
+  padding: 0.5rem 2rem;
+}
+.link:hover,
+.link:active {
+  background-color: #d7e9b9;
+}
+
+.btnDiv button {
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  padding: 0rem 0.5rem;
+  width: 2rem;
+  height: 1.8rem;
+  align-content: center;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btnDiv {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.firstBtn {
+  background-color: white;
+  border: #d23f57 0.1rem solid;
+  color: #d23f57;
+}
+.secondBtn {
+  color: grey;
+  border: grey 0.1rem solid;
+  background-color: white;
+}
+
+/* cart Button  */
+.shoppingCart {
+  padding: 0.5rem;
+  background-color: #f6f9fc;
+  color: black;
+  font-size: 2.5rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+@media screen and (max-width: 650px) {
+  .shoppingCart {
+    padding: 0rem;
+    background-color: white;
+    font-size: 1.5rem;
+  }
+}
+
+.menu {
+  display: none !important;
+}
+
+@media screen and (max-width: 650px) {
+  .menu {
+    display: inline-block !important;
+  }
+}
+
+.eachNav {
+  display: flex;
+  gap: 0.3rem;
+  padding: 0.5rem;
+  align-items: flex-end;
+  justify-content: center;
+  border-bottom: #d23f5800 0.1rem solid;
+}
+
+.eachNav:hover {
+  bottom: 0;
+  border-bottom: #7c287d 0.1rem solid;
+  transition: all 0.5s;
+}

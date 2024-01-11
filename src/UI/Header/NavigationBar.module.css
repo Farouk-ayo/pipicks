@@ -1,0 +1,23 @@
+.loginDetails {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  display: none;
+}
+@media screen and (max-width: 650px) {
+  .header {
+    gap: 0.5rem;
+  }
+  .search {
+    display: inline-flex;
+  }
+  .loginDetails {
+    gap: 0.4rem;
+  }
+}
+
+
+

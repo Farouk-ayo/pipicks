@@ -1,0 +1,94 @@
+.collection {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0rem 0rem 0rem 2rem;
+  overflow: hidden;
+  align-items: center;
+  padding-top: 2rem;
+  background: linear-gradient(90deg, white, #e4e7ed);
+  border: 0.05rem solid #e4e7ed;
+  height: 100%;
+}
+@media screen and (max-width: 700px) {
+  .collection {
+    flex-direction: column;
+    height: 30rem;
+    gap: 1rem;
+    padding-left: 0.5rem;
+  }
+}
+
+.checkbox {
+  bottom: 0;
+  grid-row: 3/4;
+  grid-column: 4/5;
+  display: flex;
+  gap: 1rem;
+}
+.mainText {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  position: relative;
+  z-index: 4;
+}
+@media screen and (max-width: 700px) {
+  .mainText {
+    align-self: flex-start;
+    padding-left: 1rem;
+  }
+}
+.mainText h1,
+.mainText h2,
+.mainText h3 {
+  text-transform: uppercase;
+}
+.mainText h3 {
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+.mainText h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.mainText h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.mainText p {
+  font-size: 1rem;
+}
+
+.reddie {
+  color: #d23f57;
+  font-weight: 700;
+}
+.mainImage {
+  height: 28rem;
+  width: 25rem;
+  align-self: flex-end;
+}
+@media screen and (max-width: 700px) {
+  .mainImage {
+    align-self: flex-end;
+    top: 5rem;
+    position: absolute;
+    opacity: 0.6;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mainImage {
+    top: 15rem;
+  }
+}
+.shopNow {
+  background-color: #7c287d;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  color: white;
+  margin-top: 2rem;
+  align-self: flex-start;
+}

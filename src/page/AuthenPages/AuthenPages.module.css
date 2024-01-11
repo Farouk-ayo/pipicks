@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f6f9fc;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  gap: 1rem;
+  background-color: white;
+  width: 30rem;
+  z-index: 10;
+  padding: 2rem;
+  border-radius: 0.3rem;
+}
+
+.terms {
+  text-decoration: underline;
+  color: black;
+  font-weight: 600;
+}

@@ -1,0 +1,293 @@
+.CartPage {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f6f9fc;
+  padding: 0rem 4rem;
+}
+@media screen and (max-width: 1300px) {
+  .CartPage {
+    padding: 0 2rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .CartPage {
+    padding: 0 1rem;
+  }
+}
+
+.cart {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.carts {
+  width: 70%;
+}
+.totalAmount {
+  width: 30%;
+  border-radius: 0.8rem;
+  box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+  padding: 1.5rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: fit-content;
+}
+
+@media screen and (max-width: 1100px) {
+  .carts {
+    width: 60%;
+  }
+  .totalAmount {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .cart {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .carts {
+    width: 100%;
+  }
+  .totalAmount {
+    width: 100%;
+  }
+}
+.null {
+  gap: 2rem;
+  width: 100%;
+  padding: 4rem 2rem;
+}
+.null h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.cartInfo {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1.2rem;
+  align-items: flex-start;
+  border-radius: 0.8rem;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+  margin-bottom: 1rem;
+  background-color: white;
+}
+
+.info {
+  display: flex;
+}
+
+.info img {
+  height: 5rem;
+  width: 5rem;
+  margin: 0rem 2rem;
+  align-self: center;
+}
+@media screen and (max-width: 640px) {
+  .info img {
+    margin: 0 1.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+  .info img {
+    height: 7.5rem;
+    width: 8rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .checkout {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 960px) {
+  .payment {
+    flex-direction: column-reverse;
+  }
+}
+
+.eachInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.details h5 {
+  font-size: 1.4rem;
+}
+
+.details span {
+  display: flex;
+  gap: 1rem;
+}
+
+.details span p {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  color: #444444b4;
+}
+
+.details span h2 {
+  color: #d23f57;
+  font-size: 1.3rem;
+}
+
+.totalAmount h3 {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.totalAmount h3 :first-child {
+  color: #444444b4;
+}
+
+.totalAmount hr {
+  border-bottom: 0.1rem solid #2b344533;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  position: relative;
+}
+.comment {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.comment span {
+  color: #d23f57;
+  background-color: #feebeb;
+  padding: 0.15rem 0.7rem;
+  font-size: 0.9rem;
+  border-radius: 0.4rem;
+}
+form textarea {
+  max-width: 100%;
+  max-height: 7rem;
+  border: 0.1rem solid #44444448;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  resize: none;
+}
+
+form textarea:focus {
+  border: 0.13rem solid #d23f57 !important;
+  outline: none;
+}
+
+form textarea:hover {
+  border: 0.12rem solid black;
+  outline: none;
+}
+
+/* shippingAddress */
+
+.shippingInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+}
+.shippingInfo p {
+  font-weight: 600;
+  color: #2b3445;
+}
+
+.shippingAddress {
+  display: flex;
+  gap: 3rem;
+  /* transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
+}
+@media screen and (max-width: 600px) {
+  .shippingAddress {
+    flex-direction: column;
+  }
+}
+
+.btnGroup {
+  display: flex;
+  width: 100%;
+  gap: 3rem;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+@media screen and (max-width: 600px) {
+  .btnGroup {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+.fees {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.fees h4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fees h4 span:first-child {
+  color: grey;
+  font-weight: 400;
+}
+
+.fees h4 span:last-child {
+  font-size: 1.2rem;
+  color: #2b3445;
+  font-weight: 700;
+}
+
+.totalAmount h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-align: right;
+  color: #2b3445;
+}
+
+.creditCards {
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  background-color: white;
+  width: 100%;
+  border-bottom: 0.1rem solid #2b344533;
+}

@@ -1,0 +1,94 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #ede9d5;
+  padding: 3rem 4rem;
+  overflow: hidden;
+}
+@media screen and (max-width: 1300px) {
+  .footer {
+    padding: 2rem 2rem;
+    gap: 2rem;
+  }
+}
+
+.footer > * {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 18rem;
+}
+.stores button {
+  color: #d23f57;
+  background-color: #ede9d5;
+  outline: 0.15rem solid #d23f5839;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 1014px) {
+  .footer > * {
+    width: 47%;
+    gap: 0.5rem;
+  }
+}
+
+.footer > * h2 {
+  color: #2b3445;
+}
+.footer > * h2:hover {
+  color: #092037;
+}
+
+.footer > * ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #2b3445;
+  list-style: none;
+  text-decoration: none;
+}
+
+.brand article {
+  color: #2b3445;
+}
+.stores {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 680px) {
+  .stores {
+    gap: 0.5rem;
+    width: fit-content;
+  }
+  .stores button {
+    padding: 0.5rem 2rem;
+  }
+}
+@media screen and (max-width: 611px) {
+  .footer > * {
+    width: 98%;
+  }
+}
+
+.stores button h2 {
+  font-size: 1rem;
+}
+
+.socialLogo {
+  display: flex;
+  justify-content: space-between;
+}

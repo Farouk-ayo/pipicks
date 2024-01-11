@@ -1,0 +1,99 @@
+.catalogue {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 5rem;
+  background-color: #f6f9fc;
+}
+@media screen and (max-width: 1300px) {
+  .catalogue {
+    padding: 2rem 2rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .catalogue {
+    padding: 2rem 1rem;
+  }
+}
+.headCat h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.catalogIcon {
+  font-size: 2rem;
+}
+.headCat {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: #f6f9fc;
+}
+
+.catSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+  box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+}
+
+.catSection > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 18%;
+  background-color: white;
+  padding: 2.5rem 1rem;
+}
+.catSection > * img {
+  height: 8rem;
+  width: 100%;
+}
+@media screen and (max-width: 900px) {
+  .catSection > * img {
+    height: 4rem;
+  }
+  .catSection > * {
+    padding: 1rem;
+    width: 20%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .headCat h2 {
+    font-size: 1rem;
+  }
+  .catalogIcon {
+    font-size: 1rem;
+  }
+  .catSection > * {
+    width: 31%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .catSection > * {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .catSection > * {
+    width: 47%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .catSection > * {
+    width: 70%;
+  }
+}
+
+link {
+  font-size: 2rem;
+  font-weight: 400;
+}

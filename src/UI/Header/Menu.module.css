@@ -1,0 +1,134 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 5rem;
+  color: #7c287d;
+  background-color: #fff;
+  overflow: hidden;
+}
+@media screen and (max-width: 1300px) {
+  .menu {
+    padding: 0.5rem 2rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .menu {
+    justify-content: center;
+  }
+}
+
+.categories button {
+  font-size: 1.3em;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  color: #7c287d;
+  background-color: white;
+  outline: 0.15rem solid #7c287d;
+}
+@media screen and (max-width: 650px) {
+  .categories button {
+    display: none;
+  }
+}
+
+.categoriesSug {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 17rem;
+  background-color: #fff;
+  color: #7c287d;
+  z-index: 5;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  padding: 1rem 0rem;
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+}
+
+.categoriesSug li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem;
+  list-style: none;
+  margin: 0.3rem 1rem;
+  background-color: #fff;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  cursor: not-allowed;
+}
+.categoriesSug li:hover,
+.categoriesSug li:target {
+  background-color: #f5f5f5;
+  transform: scale(1.05);
+  transition: all 0.3s;
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+}
+
+.categoriesSug li a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: not-allowed;
+}
+
+.dropdown {
+  position: absolute;
+  background-color: #f5f5f5;
+  width: 70%;
+  height: 10rem;
+  top: 1.8rem;
+  right: 0rem;
+  z-index: 40;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 650px) {
+  .user {
+    display: none !important;
+  }
+}
+.rotate {
+  transform: rotate(180deg);
+  transition: all 0.3s;
+}
+
+.normal {
+  transform: rotate(0deg);
+  transition: all 0.3s;
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  color: #2b3445;
+}
+@media screen and (max-width: 1300px) {
+  .navBar {
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .navBar {
+    gap: 1.5rem;
+    justify-content: center;
+  }
+}
+.navBar div {
+  display: flex;
+  gap: 0.2rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
