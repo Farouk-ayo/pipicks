@@ -58,8 +58,8 @@ const Signup = (props) => {
       <section className={classes.container}>
         <div className={classes.signup}>
           <div className="logoSection">
-            <Link to="/" className="logo logoform">
-              HuntStore
+            <Link to="/" className="logo">
+              <img src="	https://pipicks.com/img/logomen.png" alt="logo" />
             </Link>
             <p className="formTitle">Create An Account</p>
           </div>
@@ -164,7 +164,7 @@ const Signup = (props) => {
               }
             />
             <Button
-              color="primary"
+              color="success"
               disableElevation
               variant="contained"
               sx={{ fontWeight: "bolder", fontSize: "1rem" }}

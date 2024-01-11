@@ -40,7 +40,7 @@ export const CartDrawer = () => {
   return (
     <ThemeProvider theme={theme}>
       <AiOutlineShoppingCart
-        style={{ color: "#7c287d" }}
+        style={{ color: "#7c287d", background: "transparent" }}
         className="shoppingCart"
         onClick={toggleDrawer("right", true)}
       />

@@ -51,8 +51,8 @@ const Modal = (props) => {
       <div className="modal">
         <div className="logoSection">
           <p className="formTitle">Welcome back</p>
-          <Link to="/" className="logo logoform">
-            HuntStore
+          <Link to="/" className="logo">
+            <img src="	https://pipicks.com/img/logomen.png" alt="logo" />
           </Link>
         </div>
         <div className="formCancel">
@@ -99,7 +99,7 @@ const Modal = (props) => {
             />
           </FormControl>
           <Button
-            color="primary"
+            color="success"
             disableElevation
             variant="contained"
             sx={{ fontWeight: "bolder", fontSize: "1rem" }}
