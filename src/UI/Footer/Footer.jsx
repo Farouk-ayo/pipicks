@@ -6,20 +6,20 @@ const Footer = () => {
   return (
     <section className={classes.footer}>
       <div className={classes.brand}>
-        <h1 className="logo">HuntStore</h1>
         <article>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-          expedita quod error facere reprehenderit delectus a sint, nisi, fugiat
-          ut mollitia optio ipsum recusandae in porro suscipit quasi vero nemo.
+          PIPICKS is not another online store but a home. When you walk in, you
+          pick up quality items alone. We make online purchase/transaction
+          simple and easy as we bring cryptocurrency onboard. You get what you
+          see and order for without any changes on PIPICKS..........
         </article>
         <div className={classes.stores}>
           <button>
-            <IoLogoGooglePlaystore size={30} />
+            <IoLogoGooglePlaystore size={30} color="#febc12" />
 
             <h2>Google play</h2>
           </button>
           <button>
-            <FaAppStoreIos size={30} />
+            <FaAppStoreIos size={30} color="#febc12" />
 
             <h2>App store</h2>
           </button>
@@ -29,12 +29,9 @@ const Footer = () => {
         <h2>About Us</h2>
 
         <ul>
-          <li>Career</li>
           <li>Our Stores</li>
-          <li>Our Cares</li>
-
           <li>Terms & Condition</li>
-          <li>Privacy Policy</li>
+          <li>Selling on Pipicks</li>
         </ul>
       </div>
 
@@ -52,8 +49,8 @@ const Footer = () => {
       <div>
         <h2>Contact Us</h2>
         <ul>
-          <li>Obafemi Awolowo University, Osun State, Nigeria</li>
-          <li>Email: Mustaphafarouk41@gmail.com</li>
+          <li>Mukadam Mahmud Street Nigeria</li>
+          <li>Email: help@pipicks.com</li>
           <li>Phone:+2348073946451</li>
         </ul>
         <div className={classes.socialLogo}>

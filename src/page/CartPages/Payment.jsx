@@ -108,7 +108,7 @@ const Payment = () => {
           </FormControl>
           <section className={classes.btnGroup}>
             <Button
-              color="error"
+              color="secondary"
               disableElevation
               variant="outlined"
               fullWidth
@@ -118,7 +118,7 @@ const Payment = () => {
               Back To Checkout Details
             </Button>
             <Button
-              color="error"
+              color="secondary"
               variant="contained"
               disableElevation
               fullWidth

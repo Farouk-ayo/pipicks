@@ -6,7 +6,7 @@
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-between;
-  background-color: #ede9d5;
+  background-color: #7c287d;
   padding: 3rem 4rem;
   overflow: hidden;
 }
@@ -25,8 +25,8 @@
 }
 .stores button {
   color: #d23f57;
-  background-color: #ede9d5;
-  outline: 0.15rem solid #d23f5839;
+  background-color: #7c127e;
+  outline: 0.05rem solid #febc12;
   border: none;
   display: flex;
   justify-content: center;
@@ -44,23 +44,20 @@
 }
 
 .footer > * h2 {
-  color: #2b3445;
-}
-.footer > * h2:hover {
-  color: #092037;
+  color: white;
 }
 
 .footer > * ul {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  color: #2b3445;
+  color: white;
   list-style: none;
   text-decoration: none;
 }
 
 .brand article {
-  color: #2b3445;
+  color: white;
 }
 .stores {
   display: flex;

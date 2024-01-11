@@ -7,7 +7,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/a11y";
-import { Navigation } from "swiper";
+import "swiper/css/autoplay";
+import { Navigation, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Flash from "./Flash";
@@ -16,7 +17,7 @@ const Flashsale = () => {
   return (
     <section className={classes.flashsale}>
       <div className={classes.flashHead}>
-        <IoFlash className={classes.flashIcon} color="#7c287d" />
+        <IoFlash className={classes.flashIcon} color="#febc12" />
         <h2>Flash Sales</h2>
       </div>
       <div className={classes.container}>
@@ -36,11 +37,12 @@ const Flashsale = () => {
               slidesPerView: 5,
             },
           }}
-          modules={[Navigation]}
+          modules={[Navigation, Autoplay]}
           navigation
           loop={true}
           slidesPerView={1}
           spaceBetween={15}
+          autoplay={{ delay: 5000 }}
         >
           {SlidesFlashStore.map((value) => {
             return (

@@ -205,7 +205,10 @@
   color: #808080;
   cursor: pointer;
 }
-
+.viewAll:hover {
+  color: #7c287d;
+  transition: all 0.5s;
+}
 .favourite {
   position: absolute;
   right: 0.7rem;

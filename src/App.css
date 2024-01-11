@@ -268,8 +268,8 @@ hr {
 .notActive {
   padding: 0.3rem 2rem;
   font-size: 1rem;
-  background-color: #fcc8c8;
-  color: #d23f57;
+  background-color: #febb1280;
+  color: #febc12;
   border-radius: 2rem;
   font-weight: 500;
   cursor: pointer;
@@ -277,12 +277,12 @@ hr {
 }
 
 .notActive:hover {
-  background-color: #d23f57;
-  color: white;
+  background-color: #febc12;
+  color: black;
 }
 .active {
-  background-color: #d23f57;
-  color: white;
+  background-color: #febc12;
+  color: black;
   border-radius: 2rem;
   font-weight: 500;
   cursor: pointer;

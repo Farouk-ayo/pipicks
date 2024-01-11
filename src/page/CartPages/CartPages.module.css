@@ -149,7 +149,7 @@
 }
 
 .details span h2 {
-  color: #d23f57;
+  color: #7c287d;
   font-size: 1.3rem;
 }
 
@@ -180,7 +180,7 @@ form {
   align-items: center;
 }
 .comment span {
-  color: #d23f57;
+  color: #7c287d;
   background-color: #feebeb;
   padding: 0.15rem 0.7rem;
   font-size: 0.9rem;
@@ -197,7 +197,7 @@ form textarea {
 }
 
 form textarea:focus {
-  border: 0.13rem solid #d23f57 !important;
+  border: 0.13rem solid #7c287d !important;
   outline: none;
 }
 
@@ -289,5 +289,5 @@ form textarea:hover {
   gap: 1rem;
   background-color: white;
   width: 100%;
-  border-bottom: 0.1rem solid #2b344533;
+  border-bottom: 0.1rem solid #febc12;
 }

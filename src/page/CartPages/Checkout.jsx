@@ -62,7 +62,7 @@ const Checkout = () => {
           </section>
           <section className={classes.btnGroup}>
             <Button
-              color="error"
+              color="secondary"
               disableElevation
               variant="outlined"
               fullWidth
@@ -72,7 +72,7 @@ const Checkout = () => {
               Back To Cart
             </Button>
             <Button
-              color="error"
+              color="secondary"
               variant="contained"
               disableElevation
               fullWidth

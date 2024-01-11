@@ -65,7 +65,7 @@ const EachMen = (props) => {
           variant="outlined"
           size="small"
           onClick={addToCart}
-          color="error"
+          color="secondary"
           style={{ fontSize: ".7rem" }}
         >
           Add To Cart +
@@ -74,14 +74,14 @@ const EachMen = (props) => {
 
       {favorite ? (
         <MdFavoriteBorder
-          color="#143f6b"
+          color="#7c287d"
           size={20}
           className={classes.favourite}
           onClick={changeFavorite}
         />
       ) : (
         <MdFavorite
-          color="#143f6b"
+          color="#7c287d"
           size={20}
           className={classes.favourite}
           onClick={changeFavorite}

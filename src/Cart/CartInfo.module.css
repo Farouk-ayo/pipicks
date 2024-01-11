@@ -80,8 +80,8 @@ header::-webkit-scrollbar {
 
 .firstBtn {
   background-color: white;
-  border: #d23f57 0.1rem solid;
-  color: #d23f57;
+  border: #7c287d 0.1rem solid;
+  color: #7c287d;
 }
 .secondBtn {
   color: grey;
@@ -112,7 +112,7 @@ header::-webkit-scrollbar {
   gap: 0.5rem;
 }
 .details h2 {
-  color: #d23f57;
+  color: #7c287d;
   font-size: 1.2rem;
 }
 footer {
@@ -135,22 +135,22 @@ footer a {
 }
 
 .checkout {
-  background-color: #d23f57;
+  background-color: #7c287d;
   color: white;
 }
 .checkout:hover {
-  background-color: #c62828;
+  background-color: #7c287d;
   transition: all 0.5s;
 }
 
 .viewCart {
   background-color: white;
-  color: #d23f57;
-  border: #d23f57 solid 0.1rem;
+  color: #7c287d;
+  border: #7c287d solid 0.1rem;
 }
 
 .viewCart:hover {
-  border: #d23f57 solid 0.1rem;
+  border: #7c287d solid 0.1rem;
   transition: all 0.4s;
   background-color: #fef3f3;
 }

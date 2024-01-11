@@ -19,7 +19,8 @@ import { states } from "./Country";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "rgb(210, 63, 87);",
+      // main: "#febc12",
+      main: "#7c287d",
     },
   },
   typography: {

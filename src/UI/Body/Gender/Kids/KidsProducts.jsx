@@ -25,7 +25,7 @@ const KidsProducts = () => {
 
       <Link to="/kids" className={classes.viewAll}>
         View All
-        <BsPlayFill color="#808080" />
+        <BsPlayFill color="#7c287d" />
       </Link>
     </section>
   );
