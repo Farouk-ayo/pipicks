@@ -50,16 +50,6 @@ const Menu = () => {
         ) : null}
       </div>
       <nav className={classes.navBar}>
-        <Link to="/#men" id="#men" onClick={scrollFunction} className="eachNav">
-          Home
-        </Link>
-        <Link to="/#men" id="#men" onClick={scrollFunction} className="eachNav">
-          Mini Importer
-        </Link>
-        <Link to="/#men" id="#men" onClick={scrollFunction} className="eachNav">
-          Hot Deals
-        </Link>
-
         <Link
           to="/#women"
           id="#women"
@@ -71,15 +61,9 @@ const Menu = () => {
         <Link to="/#men" id="#men" onClick={scrollFunction} className="eachNav">
           Masculine
         </Link>
-        <Link
-          to="/#kids"
-          id="#kids"
-          onClick={scrollFunction}
-          className="eachNav"
-        >
+        <Link to="/#men" id="#men" onClick={scrollFunction} className="eachNav">
           Kids
         </Link>
-
         <Link
           to="/#kids"
           id="#kids"
@@ -87,22 +71,6 @@ const Menu = () => {
           className="eachNav"
         >
           Tech
-        </Link>
-        <Link
-          to="/#kids"
-          id="#kids"
-          onClick={scrollFunction}
-          className="eachNav"
-        >
-          Handpicked
-        </Link>
-        <Link
-          to="/#kids"
-          id="#kids"
-          onClick={scrollFunction}
-          className="eachNav"
-        >
-          Promo
         </Link>
       </nav>
     </div>
