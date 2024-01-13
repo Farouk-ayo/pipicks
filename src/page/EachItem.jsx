@@ -100,7 +100,7 @@ const EachItem = () => {
         </div>
 
         <p className={classes.hint}>
-          Sold By: <Link to="/">Hunt Store</Link>
+          Sold By: <Link to="/">Pipicks</Link>
         </p>
       </div>
     </section>
